@@ -1,0 +1,16 @@
+Run mysql shell:
+/usr/bin/mysql -u root -p
+
+# Create DB:
+create database bbms;
+
+#Use DB:
+use bbms;
+
+#create donor table;
+create table donor(donorId int(10)primary key, name varchar(100),fatherName varchar(100),motherName varchar(100),Dob varchar(100),mobileNo varchar(20),gender varchar(20),bloodGroup varchar(20),city varchar(100),email varchar(255),address varchar(500));
+
+# View donor table attribute:
+desc donor;
+
+
